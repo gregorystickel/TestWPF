@@ -17,19 +17,8 @@
                 </TransformGroup>
             </RadioButton.RenderTransform>
         </RadioButton>
-        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="219,160,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="219,201,0,0" VerticalAlignment="Top"/>
-        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="256,88,0,0" VerticalAlignment="Top"/>
-        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="169" Margin="150,88,0,0" Stroke="Black" VerticalAlignment="Top" Width="268"/>
-        <TabControl HorizontalAlignment="Left" Height="100" Margin="192,175,0,0" VerticalAlignment="Top" Width="100">
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-            <TabItem Header="TabItem">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-        </TabControl>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="146,97,0,0" VerticalAlignment="Top" Width="75"/>
+        <TextBlock x:Name="TB1" HorizontalAlignment="Left" Height="88" Margin="115,56,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Width="296"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="208,187,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.64,0.5" Click="Button_Click"/>
 
     </Grid>
 </Window>

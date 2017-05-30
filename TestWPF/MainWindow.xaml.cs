@@ -24,5 +24,10 @@ namespace TestWPF
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            TB1.Text = "Testing 1234";
+        }
     }
 }
